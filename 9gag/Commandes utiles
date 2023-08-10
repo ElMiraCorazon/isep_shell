@@ -1,0 +1,64 @@
+# cd [répertoire] -> Change le répertoire de travail.
+
+# cp [options] source destination -> Copie un fichier source vers un autre  fichier (qui sera écrasé si ce fichier existe). Copie également un ensemble de fichiers vers un répertoire existant.
+
+------ options possibles : 
+
+-b, --backup
+	Effectue une  copie  de  sauvegarde  des  fichiers qui seront
+	supprimés.
+
+-f, --force
+	Efface les fichiers cibles existants.
+
+-i, --interactive
+	Demande confirmation avant suppression d'un fichier.
+
+-p, --preserve
+	Préserve les informations concernant le propriétaire, le groupe,  
+	les droits d'accès, et la date.
+
+-r
+	Effectue une copie récursive.
+
+-u, --update
+	Ne copie pas un fichier qui en écraserait un plus récent.
+
+# grep [options] expression [fichiers] -> Effectue dans un ou plusieurs fichiers spécifiés la recherche d'une expression. Par défaut, la commande renvoie les lignes contenant l'expression.
+
+------ options possibles :
+
+    -c	Affiche le nombre de lignes qui correspondent.
+
+    -v	Affiche le nombre de ligne qui ne correspondent pas.
+
+    -e expression
+    	Permet de recherche une expression commençant par le caractère -.
+
+    -i	Ne fait pas de distinction entre les minuscules et les
+    	majuscules.
+
+    -h	Affiche les lignes qui correspondent mais pas les noms 
+    	de fichiers associés.
+
+    -l	Affiche les noms de fichiers mais pas les lignes qui
+    	correspondent.
+
+    -n	Affiche les lignes qui correspondent et les numéros de lignes
+    	associés.
+    	
+#  rm [options] fichiers -> efface le ou les fichiers spécifiés.
+
+------ Options les plus courantes :
+
+    -d, --directory	
+    	Efface le répertoire spécifié (même s'il n'est pas vide).
+    	
+    -i, --interactive
+    	Demande confirmation avant d'effacer le ou les fichiers.
+
+    -r, -R, --recursive
+    	Efface de façon récursive le contenu du répertoire (répertoire et
+    	sous-répertoires).
+    	
+    	

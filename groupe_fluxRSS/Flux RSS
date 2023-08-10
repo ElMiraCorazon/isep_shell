@@ -1,0 +1,10 @@
+"Rich Site Summary" - "Really Simple Syndication"
+
+Syndication : Mise à disposition d'un Flux.
+
+Les flux RSS sont des fichiers XML. 
+Ils contiennent les informations d'un site web de manière synthétique. 
+Le contenu est produit automatiquement à partir de la mise à jour du site. 
+Les flux RSS peuvent être utilisés par des tiers qui ont la possiblité de s'abonner et d'exploiter les informations.
+L'intérêt est d'être tenu au courant des mises à jour.
+

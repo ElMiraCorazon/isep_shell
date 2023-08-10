@@ -1,0 +1,7 @@
+#récuperer le contenue des articles avec un tri auto .gif
+#Les stocker dans un fichier .txt
+#Automatiser cette récuperation chaque jour
+#Système de zip de .gif
+#Envoie auto de mail a 9h tout les jours
+curl http://9gag.com/ | grep "gif"
+

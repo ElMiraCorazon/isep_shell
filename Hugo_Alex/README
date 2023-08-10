@@ -1,0 +1,23 @@
+** Concernant l'exécution d'un script **
+
+
+En supposant que le script se trouve dans le répertoire courant.
+
+
+Pour rendre le script exécutable :
+# chmod +x script.sh
+
+Ensuite pour l'exécuter, il existe trois solutions :
+- Soit on ajoute à la variable d'environnement $PATH, le chemin jusqu'à notre script :
+# PATH=$PATH:$( pwd )
+La valeur de la variable $PATH est réinitialisée lorsque vous fermez le shell...
+# script.sh
+
+- Soit on place le script dans "/usr/bin/" :
+# cp script.sh /usr/bin/ (pour copier)
+# mv script.sh /usr/bin/ (pour déplacer)
+# script.sh
+
+- Soit on exécute directement le script en tapant :
+# ./script.sh (si le Shebang est indiqué, première ligne du script)
+# bash script.sh (on indique l'interpréteur avant le nom du script)
